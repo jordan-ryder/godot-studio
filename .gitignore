@@ -1,0 +1,24 @@
+# Godot import cache and engine binary (re-created by install.sh).
+.godot/
+.godot-bin/
+.import.log
+.reload.log
+.needs-reload
+
+# Exports / build output
+build/
+*.tmp
+
+# Local-only notes (not shipped)
+/TODO.local.md
+/special/
+
+# Art and audio assets are not tracked (bring your own) — except editor UI icons, which ship.
+assets/*
+!assets/editor_icons/
+
+# Python tooling (asset converters)
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
